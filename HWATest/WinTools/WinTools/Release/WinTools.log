@@ -1,0 +1,38 @@
+﻿Build started 2020/12/15 14:39:52.
+     1>Project "F:\Codes\BDS3\HWATest\WinTools\WinTools\WinTools.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinTools.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinTools.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D HWA_TOOL_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinTools.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D HWA_TOOL_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinTools.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tools.cpp WinCrc.cpp WinGlobal.cpp WinTools.cpp
+         tools.cpp
+     1>tools.cpp(134): warning C4244: '=' : conversion from 'f8' to 'float', possible loss of data
+         WinCrc.cpp
+         WinGlobal.cpp
+         WinTools.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinTools.res" WinTools.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinTools.dll" /INCREMENTAL:NO /NOLOGO F:\Codes\BDS3\HWATest\Release\WinDefine.lib /DEF:".\WinTools.def" /MANIFEST /ManifestFile:"Release\WinTools.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinTools.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinTools.lib" /MACHINE:X86 /DLL Release\WinTools.res
+         Release\stdafx.obj
+         Release\tools.obj
+         Release\WinCrc.obj
+         Release\WinGlobal.obj
+         Release\WinTools.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinTools.lib and object F:\Codes\BDS3\HWATest\Release\WinTools.exp
+         Generating code
+         Finished generating code
+         WinTools.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinTools.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinTools.dll;#2" /manifest Release\WinTools.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinTools.unsuccessfulbuild".
+         Touching "Release\WinTools.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinTools\WinTools\WinTools.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.43

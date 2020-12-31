@@ -1,0 +1,47 @@
+﻿Build started 2020/12/15 14:39:58.
+     1>Project "F:\Codes\BDS3\HWATest\WinCalPos\WinCalPos\WinCalPos.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinCalPos.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinCalPos.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /IF:\Codes\BDS3\HWATest\\WinTools\WinTools /IF:\Codes\BDS3\HWATest\\WinListener\WinListener /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_POS_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinCalPos.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /IF:\Codes\BDS3\HWATest\\WinTools\WinTools /IF:\Codes\BDS3\HWATest\\WinListener\WinListener /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_POS_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinCalPos.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt EphFunc.cpp IonFunc.cpp MatrixFun.cpp TransFunc.cpp WinCalFunc.cpp WinCalPos.cpp
+         EphFunc.cpp
+         IonFunc.cpp
+         MatrixFun.cpp
+         TransFunc.cpp
+         WinCalFunc.cpp
+     1>WinCalFunc.cpp(85): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>WinCalFunc.cpp(311): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>WinCalFunc.cpp(398): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>WinCalFunc.cpp(409): warning C4244: '=' : conversion from 'UINT16' to 'UINT8', possible loss of data
+     1>WinCalFunc.cpp(410): warning C4244: '=' : conversion from 'UINT16' to 'UINT8', possible loss of data
+         WinCalPos.cpp
+     1>WinCalPos.cpp(465): warning C4244: '=' : conversion from 'unsigned short' to 'UINT8', possible loss of data
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinCalPos.res" WinCalPos.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinCalPos.dll" /INCREMENTAL:NO /NOLOGO F:\Codes\BDS3\HWATest\Release\WinDefine.lib F:\Codes\BDS3\HWATest\Release\WinTools.lib F:\Codes\BDS3\HWATest\Release\WinListener.lib /DEF:".\WinCalPos.def" /MANIFEST /ManifestFile:"Release\WinCalPos.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinCalPos.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinCalPos.lib" /MACHINE:X86 /DLL Release\WinCalPos.res
+         Release\EphFunc.obj
+         Release\IonFunc.obj
+         Release\MatrixFun.obj
+         Release\stdafx.obj
+         Release\TransFunc.obj
+         Release\WinCalFunc.obj
+         Release\WinCalPos.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinCalPos.lib and object F:\Codes\BDS3\HWATest\Release\WinCalPos.exp
+         Generating code
+         Finished generating code
+         WinCalPos.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinCalPos.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinCalPos.dll;#2" /manifest Release\WinCalPos.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinCalPos.unsuccessfulbuild".
+         Touching "Release\WinCalPos.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinCalPos\WinCalPos\WinCalPos.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.07

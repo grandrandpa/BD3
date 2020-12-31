@@ -1,0 +1,31 @@
+﻿Build started 2020/12/15 14:39:48.
+     1>Project "F:\Codes\BDS3\HWATest\WinDefine\WinDefine\WinDefine.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinDefine.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinDefine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_DEFINE_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinDefine.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_DEFINE_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinDefine.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WinDefine.cpp
+         WinDefine.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinDefine.res" WinDefine.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinDefine.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\WinDefine.def" /MANIFEST /ManifestFile:"Release\WinDefine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinDefine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinDefine.lib" /MACHINE:X86 /DLL Release\WinDefine.res
+         Release\stdafx.obj
+         Release\WinDefine.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinDefine.lib and object F:\Codes\BDS3\HWATest\Release\WinDefine.exp
+         Generating code
+         Finished generating code
+         WinDefine.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinDefine.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinDefine.dll;#2" /manifest Release\WinDefine.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinDefine.unsuccessfulbuild".
+         Touching "Release\WinDefine.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinDefine\WinDefine\WinDefine.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.45

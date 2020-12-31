@@ -1,0 +1,6 @@
+; WinConfig.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WinConfig"
+
+EXPORTS
+    ; Explicit exports can go here

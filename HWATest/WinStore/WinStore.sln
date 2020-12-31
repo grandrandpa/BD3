@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinStore", "WinStore\WinStore.vcproj", "{8B9CB882-0AA5-48C5-8A0D-E3D74F8EC419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B9CB882-0AA5-48C5-8A0D-E3D74F8EC419}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B9CB882-0AA5-48C5-8A0D-E3D74F8EC419}.Debug|Win32.Build.0 = Debug|Win32
+		{8B9CB882-0AA5-48C5-8A0D-E3D74F8EC419}.Release|Win32.ActiveCfg = Release|Win32
+		{8B9CB882-0AA5-48C5-8A0D-E3D74F8EC419}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

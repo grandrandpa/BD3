@@ -1,0 +1,6 @@
+; WinPlayer.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WinPlayer"
+
+EXPORTS
+    ; Explicit exports can go here

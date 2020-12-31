@@ -1,0 +1,6 @@
+; WinCalPos.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WinCalPos"
+
+EXPORTS
+    ; Explicit exports can go here

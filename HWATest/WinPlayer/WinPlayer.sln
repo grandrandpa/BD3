@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinPlayer", "WinPlayer\WinPlayer.vcproj", "{2034FB5B-E1CF-4C55-826E-076C0638D5AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2034FB5B-E1CF-4C55-826E-076C0638D5AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2034FB5B-E1CF-4C55-826E-076C0638D5AE}.Debug|Win32.Build.0 = Debug|Win32
+		{2034FB5B-E1CF-4C55-826E-076C0638D5AE}.Release|Win32.ActiveCfg = Release|Win32
+		{2034FB5B-E1CF-4C55-826E-076C0638D5AE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

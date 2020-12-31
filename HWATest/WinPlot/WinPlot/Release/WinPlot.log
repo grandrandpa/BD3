@@ -1,0 +1,43 @@
+﻿Build started 2020/12/15 14:39:48.
+     1>Project "F:\Codes\BDS3\HWATest\WinPlot\WinPlot\WinPlot.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinPlot.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinPlot.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_DRAW_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinPlot.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_DRAW_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinPlot.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PlotLine.cpp PlotSky.cpp PlotSnr.cpp PlotToolbar.cpp WinPlot.cpp
+         PlotLine.cpp
+     1>PlotLine.cpp(272): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>PlotLine.cpp(1514): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         PlotSky.cpp
+     1>PlotSky.cpp(84): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>PlotSky.cpp(304): warning C4018: '<' : signed/unsigned mismatch
+         PlotSnr.cpp
+         PlotToolbar.cpp
+         WinPlot.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinPlot.res" WinPlot.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinPlot.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\WinPlot.def" /MANIFEST /ManifestFile:"Release\WinPlot.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinPlot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinPlot.lib" /MACHINE:X86 /DLL Release\WinPlot.res
+         Release\PlotLine.obj
+         Release\PlotSky.obj
+         Release\PlotSnr.obj
+         Release\PlotToolbar.obj
+         Release\stdafx.obj
+         Release\WinPlot.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinPlot.lib and object F:\Codes\BDS3\HWATest\Release\WinPlot.exp
+         Generating code
+         Finished generating code
+         WinPlot.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinPlot.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinPlot.dll;#2" /manifest Release\WinPlot.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinPlot.unsuccessfulbuild".
+         Touching "Release\WinPlot.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinPlot\WinPlot\WinPlot.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.44

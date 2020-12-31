@@ -1,0 +1,6 @@
+; WinNet.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WinNet"
+
+EXPORTS
+    ; Explicit exports can go here

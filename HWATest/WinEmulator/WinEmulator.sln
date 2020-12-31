@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinEmulator", "WinEmulator\WinEmulator.vcproj", "{A413151A-AEF1-4371-AD9F-6759A147AE23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A413151A-AEF1-4371-AD9F-6759A147AE23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A413151A-AEF1-4371-AD9F-6759A147AE23}.Debug|Win32.Build.0 = Debug|Win32
+		{A413151A-AEF1-4371-AD9F-6759A147AE23}.Release|Win32.ActiveCfg = Release|Win32
+		{A413151A-AEF1-4371-AD9F-6759A147AE23}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

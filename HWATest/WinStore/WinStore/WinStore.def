@@ -1,0 +1,6 @@
+; WinStore.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WinStore"
+
+EXPORTS
+    ; Explicit exports can go here

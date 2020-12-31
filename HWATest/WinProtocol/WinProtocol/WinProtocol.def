@@ -1,0 +1,6 @@
+; WinProtocol.def : Declares the module parameters for the DLL.
+
+LIBRARY      "WinProtocol"
+
+EXPORTS
+    ; Explicit exports can go here

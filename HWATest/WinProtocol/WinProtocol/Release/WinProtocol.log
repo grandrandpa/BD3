@@ -1,0 +1,49 @@
+﻿Build started 2020/12/15 14:39:58.
+     1>Project "F:\Codes\BDS3\HWATest\WinProtocol\WinProtocol\WinProtocol.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinProtocol.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinProtocol.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /IF:\Codes\BDS3\HWATest\\WinTools\WinTools /IF:\Codes\BDS3\HWATest\\WinListener\WinListener /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D HWA_PROTOCOL_EXPORTS /D _HWA_TEST /D _PROTOCOL_SATID /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinProtocol.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /IF:\Codes\BDS3\HWATest\\WinTools\WinTools /IF:\Codes\BDS3\HWATest\\WinListener\WinListener /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D HWA_PROTOCOL_EXPORTS /D _HWA_TEST /D _PROTOCOL_SATID /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinProtocol.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DisposeBase.cpp DisposeBD3.cpp DisposeBinary.cpp DisposeNMEA.cpp WinProtocol.cpp
+         DisposeBase.cpp
+         DisposeBD3.cpp
+     1>DisposeBD3.cpp(496): warning C4244: '=' : conversion from 'unsigned short' to 'UINT8', possible loss of data
+     1>DisposeBD3.cpp(551): warning C4244: '=' : conversion from 'unsigned short' to 'UINT8', possible loss of data
+     1>DisposeBD3.cpp(708): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>DisposeBD3.cpp(2210): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>DisposeBD3.cpp(2326): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         DisposeBinary.cpp
+         DisposeNMEA.cpp
+     1>DisposeNMEA.cpp(438): warning C4244: '=' : conversion from 'unsigned short' to 'UINT8', possible loss of data
+     1>DisposeNMEA.cpp(493): warning C4244: '=' : conversion from 'unsigned short' to 'UINT8', possible loss of data
+     1>DisposeNMEA.cpp(650): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>DisposeNMEA.cpp(2051): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>DisposeNMEA.cpp(2155): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         WinProtocol.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinProtocol.res" WinProtocol.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinProtocol.dll" /INCREMENTAL:NO /NOLOGO F:\Codes\BDS3\HWATest\Release\WinDefine.lib F:\Codes\BDS3\HWATest\Release\WinTools.lib F:\Codes\BDS3\HWATest\Release\WinListener.lib /DEF:".\WinProtocol.def" /MANIFEST /ManifestFile:"Release\WinProtocol.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinProtocol.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinProtocol.lib" /MACHINE:X86 /DLL Release\WinProtocol.res
+         Release\DisposeBase.obj
+         Release\DisposeBD3.obj
+         Release\DisposeBinary.obj
+         Release\DisposeNMEA.obj
+         Release\stdafx.obj
+         Release\WinProtocol.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinProtocol.lib and object F:\Codes\BDS3\HWATest\Release\WinProtocol.exp
+         Generating code
+         Finished generating code
+         WinProtocol.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinProtocol.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinProtocol.dll;#2" /manifest Release\WinProtocol.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinProtocol.unsuccessfulbuild".
+         Touching "Release\WinProtocol.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinProtocol\WinProtocol\WinProtocol.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.22

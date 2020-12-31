@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "北斗多频试验验证终端测试系统", "Setup\Setup.vdproj", "{77392D72-2013-4FB1-BC43-E68D6929EA38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+		Description = 北斗多频试验验证终端测试系统V2.0.3.12
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77392D72-2013-4FB1-BC43-E68D6929EA38}.Debug|Default.ActiveCfg = Debug
+		{77392D72-2013-4FB1-BC43-E68D6929EA38}.Debug|Default.Build.0 = Debug
+		{77392D72-2013-4FB1-BC43-E68D6929EA38}.Release|Default.ActiveCfg = Release
+		{77392D72-2013-4FB1-BC43-E68D6929EA38}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

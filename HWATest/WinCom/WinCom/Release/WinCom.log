@@ -1,0 +1,34 @@
+﻿Build started 2020/12/15 14:39:48.
+     1>Project "F:\Codes\BDS3\HWATest\WinCom\WinCom\WinCom.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinCom.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinCom.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_COM_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinCom.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_COM_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinCom.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SerialPort.cpp WinCom.cpp
+         SerialPort.cpp
+     1>SerialPort.cpp(69): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         WinCom.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinCom.res" WinCom.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinCom.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\WinCom.def" /MANIFEST /ManifestFile:"Release\WinCom.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinCom.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinCom.lib" /MACHINE:X86 /DLL Release\WinCom.res
+         Release\SerialPort.obj
+         Release\stdafx.obj
+         Release\WinCom.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinCom.lib and object F:\Codes\BDS3\HWATest\Release\WinCom.exp
+         Generating code
+         Finished generating code
+         WinCom.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinCom.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinCom.dll;#2" /manifest Release\WinCom.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinCom.unsuccessfulbuild".
+         Touching "Release\WinCom.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinCom\WinCom\WinCom.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.83

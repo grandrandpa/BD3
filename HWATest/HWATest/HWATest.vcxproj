@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1E82652-7D3D-45BC-8D17-0BBEA4E8116B}</ProjectGuid>
+    <RootNamespace>HWATest</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\BCGSoft\BCGControlBarPro\BCGCBPro;C:\Program Files %28x86%29\Codejock Software\MFC\Xtreme ToolkitPro v15.2.1\Source;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\BCGSoft\BCGControlBarPro\Bin;C:\Program Files %28x86%29\Codejock Software\MFC\Xtreme ToolkitPro v15.2.1\Lib\vc100;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\WinDefine\WinDefine;$(SolutionDir)\WinTools\WinTools;$(SolutionDir)\WinListener\WinListener;$(SolutionDir)\WinProtocol\WinProtocol;$(SolutionDir)\WinPlayer\WinPlayer;$(SolutionDir)\WinCom\WinCom;$(SolutionDir)\WinNet\WinNet;$(SolutionDir)\WinLink\WinLink;$(SolutionDir)\WinStore\WinStore;$(SolutionDir)\WinDataBase\WinDataBase;$(SolutionDir)\WinCalPos\WinCalPos;$(SolutionDir)\WinConfig\WinConfig;$(SolutionDir)\WinPlot\WinPlot;$(SolutionDir)\WinPrint\WinPrint;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_DRAW_IDErr;_HWA_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalOptions>-Zm140 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(OutDir)WinDefine.lib;$(OutDir)WinTools.lib;$(OutDir)WinConfig.lib;$(OutDir)WinListener.lib;$(OutDir)WinProtocol.lib;$(OutDir)WinStore.lib;$(OutDir)WinPlot.lib;$(OutDir)WinPlayer.lib;$(OutDir)WinNet.lib;$(OutDir)WinCom.lib;$(OutDir)WinLink.lib;$(OutDir)WinDataBase.lib;$(OutDir)WinCalPos.lib;$(OutDir)WinPrint.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\WinDefine\WinDefine;$(SolutionDir)\WinTools\WinTools;$(SolutionDir)\WinListener\WinListener;$(SolutionDir)\WinProtocol\WinProtocol;$(SolutionDir)\WinCom\WinCom;$(SolutionDir)\WinNet\WinNet;$(SolutionDir)\WinStore\WinStore;$(SolutionDir)\WinPlayer\WinPlayer;$(SolutionDir)\WinConfig\WinConfig;$(SolutionDir)\WinLink\WinLink;$(SolutionDir)\WinDataBase\WinDataBase;$(SolutionDir)\WinCalPos\WinCalPos;$(SolutionDir)\WinPrint\WinPrint;$(SolutionDir)\WinPlot\WinPlot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_DRAW_IDErr;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(OutDir)WinDefine.lib;$(OutDir)WinTools.lib;$(OutDir)WinConfig.lib;$(OutDir)WinListener.lib;$(OutDir)WinProtocol.lib;$(OutDir)WinStore.lib;$(OutDir)WinPlot.lib;$(OutDir)WinPlayer.lib;$(OutDir)WinNet.lib;$(OutDir)WinCom.lib;$(OutDir)WinLink.lib;$(OutDir)WinDataBase.lib;$(OutDir)WinCalPos.lib;$(OutDir)WinPrint.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationDlg.cpp" />
+    <ClCompile Include="BarView.cpp" />
+    <ClCompile Include="BaseView.cpp" />
+    <ClCompile Include="BCGPSliderButton.cpp" />
+    <ClCompile Include="ChDecodeView.cpp" />
+    <ClCompile Include="CheckDevDlg.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="DrawChartBar.cpp" />
+    <ClCompile Include="DrawLineWnd.cpp" />
+    <ClCompile Include="DrawPosView.cpp" />
+    <ClCompile Include="DrawRanView.cpp" />
+    <ClCompile Include="DrawSkyWnd.cpp" />
+    <ClCompile Include="DrawTestView.cpp" />
+    <ClCompile Include="DrawXpvView.cpp" />
+    <ClCompile Include="HWATest.cpp" />
+    <ClCompile Include="HWATestDoc.cpp" />
+    <ClCompile Include="HWATestView.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutputBar.cpp" />
+    <ClCompile Include="ProjConfigPage.cpp" />
+    <ClCompile Include="ProjFilesPage.cpp" />
+    <ClCompile Include="ProjLinkPage.cpp" />
+    <ClCompile Include="ProjNewPage.cpp" />
+    <ClCompile Include="ProjOpenPage.cpp" />
+    <ClCompile Include="ProjPropertyPage.cpp" />
+    <ClCompile Include="RadarPointView.cpp" />
+    <ClCompile Include="SendCmdDig.cpp" />
+    <ClCompile Include="SetACQDlg.cpp" />
+    <ClCompile Include="SetBDIDlg.cpp" />
+    <ClCompile Include="SetBGTDlg.cpp" />
+    <ClCompile Include="SetCHADlg.cpp" />
+    <ClCompile Include="SetDrawDlg.cpp" />
+    <ClCompile Include="SetEACDlg.cpp" />
+    <ClCompile Include="SetEPQDialog.cpp" />
+    <ClCompile Include="SetFileDlg.cpp" />
+    <ClCompile Include="SetGSVDlg.cpp" />
+    <ClCompile Include="SetIONDlg.cpp" />
+    <ClCompile Include="SetISTDlg.cpp" />
+    <ClCompile Include="SetLimitDlg.cpp" />
+    <ClCompile Include="SetLocalDlg.cpp" />
+    <ClCompile Include="SetLOGDlg.cpp" />
+    <ClCompile Include="SetMODDlg.cpp" />
+    <ClCompile Include="SetModualDlg.cpp" />
+    <ClCompile Include="SetMonitorDlg.cpp" />
+    <ClCompile Include="SetMUTDlg.cpp" />
+    <ClCompile Include="SetPilotDlg.cpp" />
+    <ClCompile Include="SetPortDlg.cpp" />
+    <ClCompile Include="SetPosDlg.cpp" />
+    <ClCompile Include="SetQRQDig.cpp" />
+    <ClCompile Include="SetREFDlg.cpp" />
+    <ClCompile Include="SetSATDlg.cpp" />
+    <ClCompile Include="SetStaticDlg.cpp" />
+    <ClCompile Include="SetSTSDlg.cpp" />
+    <ClCompile Include="SetSYSDlg.cpp" />
+    <ClCompile Include="SetTcqDig.cpp" />
+    <ClCompile Include="SetTIMDlg.cpp" />
+    <ClCompile Include="SetTimModDlg.cpp" />
+    <ClCompile Include="SetWIDDlg.cpp" />
+    <ClCompile Include="SetWORKMODDlg.cpp" />
+    <ClCompile Include="ShowAlmView.cpp" />
+    <ClCompile Include="ShowChaView.cpp" />
+    <ClCompile Include="ShowEphView.cpp" />
+    <ClCompile Include="ShowGbsView.cpp" />
+    <ClCompile Include="ShowGgaPosView.cpp" />
+    <ClCompile Include="ShowIonView.cpp" />
+    <ClCompile Include="ShowJalView.cpp" />
+    <ClCompile Include="ShowPosView.cpp" />
+    <ClCompile Include="ShowRanView.cpp" />
+    <ClCompile Include="ShowSivView.cpp" />
+    <ClCompile Include="ShowSkyView.cpp" />
+    <ClCompile Include="ShowSnrGAView.cpp" />
+    <ClCompile Include="ShowSnrGLView.cpp" />
+    <ClCompile Include="ShowSnrGPView.cpp" />
+    <ClCompile Include="ShowSnrView.cpp" />
+    <ClCompile Include="ShowSrcView.cpp" />
+    <ClCompile Include="ShowTimView.cpp" />
+    <ClCompile Include="ShowVelView.cpp" />
+    <ClCompile Include="ShowXpvView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemPane.cpp" />
+    <ClCompile Include="TestDlg.cpp" />
+    <ClCompile Include="WorkSpaceBar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationDlg.h" />
+    <ClInclude Include="BarView.h" />
+    <ClInclude Include="BaseView.h" />
+    <ClInclude Include="bcgpsliderbutton.h" />
+    <ClInclude Include="C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.2.1\Source\Chart\Includes.h" />
+    <ClInclude Include="C:\Program Files (x86)\Codejock Software\MFC\Xtreme ToolkitPro v15.2.1\Source\Chart\Resource.h" />
+    <ClInclude Include="ChDecodeView.h" />
+    <ClInclude Include="CheckDevDlg.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="DrawChartBar.h" />
+    <ClInclude Include="DrawLineWnd.h" />
+    <ClInclude Include="DrawPosView.h" />
+    <ClInclude Include="DrawRanView.h" />
+    <ClInclude Include="DrawSkyWnd.h" />
+    <ClInclude Include="DrawTestView.h" />
+    <ClInclude Include="DrawXpvView.h" />
+    <ClInclude Include="hwaStruct.h" />
+    <ClInclude Include="HWATest.h" />
+    <ClInclude Include="HWATestDoc.h" />
+    <ClInclude Include="HWATestView.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutputBar.h" />
+    <ClInclude Include="ProjConfigPage.h" />
+    <ClInclude Include="ProjFilesPage.h" />
+    <ClInclude Include="ProjLinkPage.h" />
+    <ClInclude Include="ProjNewPage.h" />
+    <ClInclude Include="ProjOpenPage.h" />
+    <ClInclude Include="ProjPropertyPage.h" />
+    <ClInclude Include="PublicMsgDefine.h" />
+    <ClInclude Include="RadarPointView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SendCmdDig.h" />
+    <ClInclude Include="SetACQDlg.h" />
+    <ClInclude Include="SetBDIDlg.h" />
+    <ClInclude Include="SetBGTDlg.h" />
+    <ClInclude Include="SetCHADlg.h" />
+    <ClInclude Include="SetDrawDlg.h" />
+    <ClInclude Include="SetEACDlg.h" />
+    <ClInclude Include="SetEPQDialog.h" />
+    <ClInclude Include="SetFileDlg.h" />
+    <ClInclude Include="SetGSVDlg.h" />
+    <ClInclude Include="SetIONDlg.h" />
+    <ClInclude Include="SetISTDlg.h" />
+    <ClInclude Include="SetLimitDlg.h" />
+    <ClInclude Include="SetLocalDlg.h" />
+    <ClInclude Include="SetLOGDlg.h" />
+    <ClInclude Include="SetMODDlg.h" />
+    <ClInclude Include="SetModualDlg.h" />
+    <ClInclude Include="SetMonitorDlg.h" />
+    <ClInclude Include="SetMUTDlg.h" />
+    <ClInclude Include="SetPilotDlg.h" />
+    <ClInclude Include="SetPortDlg.h" />
+    <ClInclude Include="SetPosDlg.h" />
+    <ClInclude Include="SetQRQDig.h" />
+    <ClInclude Include="SetREFDlg.h" />
+    <ClInclude Include="SetSATDlg.h" />
+    <ClInclude Include="SetStaticDlg.h" />
+    <ClInclude Include="SetSTSDlg.h" />
+    <ClInclude Include="SetSYSDlg.h" />
+    <ClInclude Include="SetTcqDig.h" />
+    <ClInclude Include="SetTIMDlg.h" />
+    <ClInclude Include="SetTimModDlg.h" />
+    <ClInclude Include="SetWIDDlg.h" />
+    <ClInclude Include="SetWORKMODDlg.h" />
+    <ClInclude Include="ShowAlmView.h" />
+    <ClInclude Include="ShowChaView.h" />
+    <ClInclude Include="ShowEphView.h" />
+    <ClInclude Include="ShowGbsView.h" />
+    <ClInclude Include="ShowGgaPosView.h" />
+    <ClInclude Include="ShowIonView.h" />
+    <ClInclude Include="ShowJalView.h" />
+    <ClInclude Include="ShowPosView.h" />
+    <ClInclude Include="ShowRanView.h" />
+    <ClInclude Include="ShowSivView.h" />
+    <ClInclude Include="ShowSkyView.h" />
+    <ClInclude Include="ShowSnrGAView.h" />
+    <ClInclude Include="ShowSnrGLView.h" />
+    <ClInclude Include="ShowSnrGPView.h" />
+    <ClInclude Include="ShowSnrView.h" />
+    <ClInclude Include="ShowSrcView.h" />
+    <ClInclude Include="ShowTimView.h" />
+    <ClInclude Include="ShowVelView.h" />
+    <ClInclude Include="ShowXpvView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemPane.h" />
+    <ClInclude Include="TestDlg.h" />
+    <ClInclude Include="WorkSpaceBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\background.bmp" />
+    <None Include="res\alm_tool.bmp" />
+    <None Include="res\background.png" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\bmp00005.bmp" />
+    <None Include="res\bmp00006.bmp" />
+    <None Include="res\bmp00007.bmp" />
+    <None Include="res\bmp00008.bmp" />
+    <None Include="res\bmp00009.bmp" />
+    <None Include="res\bmp00010.bmp" />
+    <None Include="res\bmp00011.bmp" />
+    <None Include="res\bmp00012.bmp" />
+    <None Include="res\bmp00013.bmp" />
+    <None Include="res\bmp00014.bmp" />
+    <None Include="images\debug.ico" />
+    <None Include="res\chd_tool.bmp" />
+    <None Include="res\draw_pos.bmp" />
+    <None Include="res\HWA.bmp" />
+    <None Include="res\HWATest.ico" />
+    <None Include="res\HWATest.rc2" />
+    <None Include="res\HWATest.toolbar.rc2" />
+    <None Include="res\HWATestDoc.ico" />
+    <None Include="images\ico00001.ico" />
+    <None Include="images\icon1.ico" />
+    <None Include="images\icon2.ico" />
+    <None Include="res\logo.ico" />
+    <None Include="res\png2.png" />
+    <None Include="res\pos_tool.bmp" />
+    <None Include="res\ran_tool.bmp" />
+    <None Include="images\select.ico" />
+    <None Include="images\test.ico" />
+    <None Include="res\siv_tool.bmp" />
+    <None Include="res\texture1.png" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="images\unselect.ico" />
+    <None Include="images\user.ico" />
+    <None Include="res\userbar.bmp" />
+    <None Include="UserImages.bmp" />
+    <None Include="res\Workspace.bmp" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HWATest.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HWATest.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HWATest">
+</Property><Property Name="Solution File" Value="E:\新建文件夹 (2)\HWATest20160907\HWATest.sln">
+</Property><Property Name="User Options File" Value="E:\新建文件夹 (2)\HWATest20160907\HWATest.suo">
+</Property><Property Name="Date" Value="2018年7月13日">
+</Property><Property Name="Time" Value="9:05">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HWATest.sln" Description="File successfully backed up as E:\新建文件夹 (2)\HWATest20160907\HWATest.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="HWATest.suo" Description="File successfully backed up as E:\新建文件夹 (2)\HWATest20160907\HWATest.suo.old">
+</Event><Event ErrorLevel="0" Project="HWATest" Source="HWATest\HWATest.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\HWATest\HWATest.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HWATest" Source="HWATest\HWATest.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="HWATest" Source="HWATest\HWATest.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\HWATest\HWATest.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HWATest" Source="HWATest\HWATest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinCom" Source="WinCom\WinCom\WinCom.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinCom\WinCom\WinCom.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinCom" Source="WinCom\WinCom\WinCom.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinCom" Source="WinCom\WinCom\WinCom.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinCom\WinCom\WinCom.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinCom" Source="WinCom\WinCom\WinCom.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinConfig" Source="WinConfig\WinConfig\WinConfig.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinConfig\WinConfig\WinConfig.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinConfig" Source="WinConfig\WinConfig\WinConfig.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinConfig" Source="WinConfig\WinConfig\WinConfig.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinConfig\WinConfig\WinConfig.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinConfig" Source="WinConfig\WinConfig\WinConfig.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinDataBase" Source="WinDataBase\WinDataBase\WinDataBase.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinDataBase\WinDataBase\WinDataBase.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinDataBase" Source="WinDataBase\WinDataBase\WinDataBase.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinDataBase" Source="WinDataBase\WinDataBase\WinDataBase.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinDataBase\WinDataBase\WinDataBase.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinDataBase" Source="WinDataBase\WinDataBase\WinDataBase.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinDefine" Source="WinDefine\WinDefine\WinDefine.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinDefine\WinDefine\WinDefine.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinDefine" Source="WinDefine\WinDefine\WinDefine.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinDefine" Source="WinDefine\WinDefine\WinDefine.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinDefine\WinDefine\WinDefine.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinDefine" Source="WinDefine\WinDefine\WinDefine.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinLink" Source="WinLink\WinLink\WinLink.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinLink\WinLink\WinLink.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinLink" Source="WinLink\WinLink\WinLink.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinLink" Source="WinLink\WinLink\WinLink.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinLink\WinLink\WinLink.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinLink" Source="WinLink\WinLink\WinLink.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinListener" Source="WinListener\WinListener\WinListener.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinListener\WinListener\WinListener.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinListener" Source="WinListener\WinListener\WinListener.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinListener" Source="WinListener\WinListener\WinListener.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinListener\WinListener\WinListener.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinListener" Source="WinListener\WinListener\WinListener.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinNet" Source="WinNet\WinNet\WinNet.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinNet\WinNet\WinNet.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinNet" Source="WinNet\WinNet\WinNet.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinNet" Source="WinNet\WinNet\WinNet.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinNet\WinNet\WinNet.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinNet" Source="WinNet\WinNet\WinNet.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinPlayer" Source="WinPlayer\WinPlayer\WinPlayer.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinPlayer\WinPlayer\WinPlayer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinPlayer" Source="WinPlayer\WinPlayer\WinPlayer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinPlayer" Source="WinPlayer\WinPlayer\WinPlayer.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinPlayer\WinPlayer\WinPlayer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinPlayer" Source="WinPlayer\WinPlayer\WinPlayer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinProtocol" Source="WinProtocol\WinProtocol\WinProtocol.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinProtocol\WinProtocol\WinProtocol.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinProtocol" Source="WinProtocol\WinProtocol\WinProtocol.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinProtocol" Source="WinProtocol\WinProtocol\WinProtocol.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinProtocol\WinProtocol\WinProtocol.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinProtocol" Source="WinProtocol\WinProtocol\WinProtocol.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinStore" Source="WinStore\WinStore\WinStore.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinStore\WinStore\WinStore.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinStore" Source="WinStore\WinStore\WinStore.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinStore" Source="WinStore\WinStore\WinStore.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinStore\WinStore\WinStore.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinStore" Source="WinStore\WinStore\WinStore.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinTools" Source="WinTools\WinTools\WinTools.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinTools\WinTools\WinTools.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinTools" Source="WinTools\WinTools\WinTools.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinTools" Source="WinTools\WinTools\WinTools.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinTools\WinTools\WinTools.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinTools" Source="WinTools\WinTools\WinTools.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinPrint" Source="WinPrint\WinPrint\WinPrint.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinPrint\WinPrint\WinPrint.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinPrint" Source="WinPrint\WinPrint\WinPrint.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinPrint" Source="WinPrint\WinPrint\WinPrint.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinPrint\WinPrint\WinPrint.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinPrint" Source="WinPrint\WinPrint\WinPrint.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinCalPos" Source="WinCalPos\WinCalPos\WinCalPos.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinCalPos\WinCalPos\WinCalPos.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinCalPos" Source="WinCalPos\WinCalPos\WinCalPos.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinCalPos" Source="WinCalPos\WinCalPos\WinCalPos.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinCalPos\WinCalPos\WinCalPos.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinCalPos" Source="WinCalPos\WinCalPos\WinCalPos.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinPlot" Source="WinPlot\WinPlot\WinPlot.vcproj" Description="Converting project file 'E:\新建文件夹 (2)\HWATest20160907\WinPlot\WinPlot\WinPlot.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinPlot" Source="WinPlot\WinPlot\WinPlot.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinPlot" Source="WinPlot\WinPlot\WinPlot.vcproj" Description="Done converting to new project file 'E:\新建文件夹 (2)\HWATest20160907\WinPlot\WinPlot\WinPlot.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="WinPlot" Source="WinPlot\WinPlot\WinPlot.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HWATest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HWATest.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,31 @@
+﻿Build started 2020/12/15 14:39:52.
+     1>Project "F:\Codes\BDS3\HWATest\WinConfig\WinConfig\WinConfig.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\WinConfig.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\WinConfig.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_CONFIG_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\WinConfig.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IF:\Codes\BDS3\HWATest\\WinDefine\WinDefine /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D HWA_CONFIG_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\WinConfig.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WinConfig.cpp
+         WinConfig.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\WinConfig.res" WinConfig.rc 
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Codes\BDS3\HWATest\Release\WinConfig.dll" /INCREMENTAL:NO /NOLOGO F:\Codes\BDS3\HWATest\Release\WinDefine.lib /DEF:".\WinConfig.def" /MANIFEST /ManifestFile:"Release\WinConfig.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Codes\BDS3\HWATest\Release\WinConfig.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Codes\BDS3\HWATest\Release\WinConfig.lib" /MACHINE:X86 /DLL Release\WinConfig.res
+         Release\stdafx.obj
+         Release\WinConfig.obj
+            Creating library F:\Codes\BDS3\HWATest\Release\WinConfig.lib and object F:\Codes\BDS3\HWATest\Release\WinConfig.exp
+         Generating code
+         Finished generating code
+         WinConfig.vcxproj -> F:\Codes\BDS3\HWATest\Release\WinConfig.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Codes\BDS3\HWATest\Release\WinConfig.dll;#2" /manifest Release\WinConfig.dll.intermediate.manifest "e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\WinConfig.unsuccessfulbuild".
+         Touching "Release\WinConfig.lastbuildstate".
+     1>Done Building Project "F:\Codes\BDS3\HWATest\WinConfig\WinConfig\WinConfig.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

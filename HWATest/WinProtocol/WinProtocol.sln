@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinProtocol", "WinProtocol\WinProtocol.vcproj", "{BD645A16-6847-449C-8CC2-58BF7EFBA168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD645A16-6847-449C-8CC2-58BF7EFBA168}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD645A16-6847-449C-8CC2-58BF7EFBA168}.Debug|Win32.Build.0 = Debug|Win32
+		{BD645A16-6847-449C-8CC2-58BF7EFBA168}.Release|Win32.ActiveCfg = Release|Win32
+		{BD645A16-6847-449C-8CC2-58BF7EFBA168}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
